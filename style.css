@@ -439,6 +439,10 @@ nav {
     align-items: center;
 }
 
+.product-divs img {
+    width: 100%;
+}
+
 .product-divs {
     display: flex;
     flex-direction: column;
@@ -560,12 +564,14 @@ nav {
     left: 20px;
     background-image: url(image/Home-Page/arrow-slide.svg);
     background-repeat: no-repeat;
+    background-color: #FFFFFF;
 }
 
 .slick-prev{
     background-image: url(image/Home-Page/arrow-slide.svg);
     background-repeat: no-repeat;
     transform: rotate(180deg);
+    background-color: #FFFFFF;
 }
 
 @media (max-width: 712px) {
