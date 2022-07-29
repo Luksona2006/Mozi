@@ -62,7 +62,7 @@ a {
 }
 
 html, body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 
@@ -1145,5 +1145,23 @@ textarea {
 
     input, textarea {
         margin: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .pack-name {
+        text-align: center;
+    }
+
+    .pack-div {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .time-location {
+        justify-content: center;
+    }
+
+    .title {
+        text-align: center;
     }
 }
