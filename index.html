@@ -75,7 +75,7 @@
 
             <div class="companies">
                 <h2 class="Cabin-36B">
-                    Over <span>1.3 million</span> users and global brands trust us 
+                    Over <span class="counter">1300000</span><span>+</span> users and global brands trust us 
                 </h2>
                 <div>
                     <img src="image/company-img.png" alt="company">
@@ -338,6 +338,19 @@
                 ]
             });
 
+        });
+    </script>
+
+
+    <script src="jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>
+        jQuery(document).ready(function( $ ) 
+        {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
         });
     </script>
 </body>
